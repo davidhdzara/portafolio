@@ -29,3 +29,36 @@ body {
 .titulo span {
     font-size: 2rem;
 }
+
+.contenedor {
+    width: 120rem;
+    margin: 0 auto 0 auto;
+}
+
+.nav-bg {
+
+    background-color: #0097A7 ;
+
+}
+
+.navegacion-principal {
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion-principal a {
+    color: #ffffff ;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+
+}
+
+.navegacion-principal a:hover {
+    background-color: #FFC107 ;
+    color: var(--oscuro);
+}
+
+
