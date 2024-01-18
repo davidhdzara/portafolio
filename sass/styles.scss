@@ -1,0 +1,59 @@
+@import '../sass/variables.scss';
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Young Serif', serif;
+}
+
+/*1rem equivale a 10px */
+
+.titulo {
+    text-align: center;
+    font-size: 3.8rem;
+    color: $color-oscuro;
+    font-weight: 400;
+    
+
+}
+
+.titulo span {
+    font-size: 2rem;
+}
+
+.contenedor {
+    width: 120rem;
+    margin: 0 auto 0 auto;
+}
+
+.nav-bg {
+
+    background-color: $color-secundario;
+
+}
+
+.navegacion-principal {
+    
+    display: flex;
+    justify-content: space-between;
+    color: $color-secundario;
+}
+
+.navegacion-principal a {
+    color: $color-blanco;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+
+}
+
+.navegacion-principal a:hover {
+    background-color:$color-primario;
+    color: var(--oscuro);
+}
+
+
